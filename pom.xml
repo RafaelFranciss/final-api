@@ -52,23 +52,23 @@
     </dependencies>
 
     <build>
-  <plugins>
-    <!-- Spring Boot Plugin (keep this) -->
-    <plugin>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-maven-plugin</artifactId>
-    </plugin>
+        <plugins>
+            <!-- Spring Boot Plugin (keep this) -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
 
-    <!-- ✅ Add this compiler plugin -->
-    <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-compiler-plugin</artifactId>
-      <version>3.13.0</version>
-      <configuration>
-        <release>17</release>
-      </configuration>
-    </plugin>
-  </plugins>
-</build>
+            <!-- ✅ Add this compiler plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <release>17</release>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
